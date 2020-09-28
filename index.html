@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCOE Library</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <a href="#" class="logo" > 
+                <img src="./images/logo.png" alt="Logo" class="head-content" width="60rem">
+                <p class="head-content"> Rizvi College of Engineering Library</p>
+            </a>
+            <div class="head-icons">
+                <a onclick="toggleNotification()"><img id="msg-icon" src="./icons/notification.png" alt="" width="35"></a>
+                <a href="./settings.html"><img src="./icons/settings.png" alt="" width="35"></a>
+            </div>
+        </div>
+        <nav>
+            <ul id="navbar">
+                <li class="nav-item">
+                    <a href="" id="comp">Computer</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" id="extc">Electronics & Telecommunications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" id="etrx">Electronics & Computer Science</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" id="mech">Mechanical</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" id="civil">Civil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" id="ai">AI & Data Science</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="notification">
+        <ul>
+            <li>Hello</li>
+        </ul>
+    </div>
+    <div id="search">
+        <img src="./icons/search.png" alt="" class="search-icon">
+        <input type="text" class="search-box" placeholder="Search">
+    </div>
+    <div class="action-area">
+        <div class="action">
+            <h2 class="action-title books">Books</h2>
+            <div class="button-div">
+                <a href="./addbook.html" id="add-book" class="button"><img src="./icons/plus.png" alt="" class="icon">Add Book</a>
+                <a href="./editbook.html" id="edit-book" class="button"><img src="./icons/edit.png" alt="" class="icon">Edit Book</a>
+                <a href="./deletebook.html" id="delete-book" class="button"><img src="./icons/minus.png" alt="" class="icon">Delete Book</a>
+                <a href="./issuebook.html" id="issue-book" class="button"><img src="./icons/book.png" alt="" class="icon"> Issue Book</a>
+            </div>
+        </div>
+        <div class="action">
+            <h2 class="action-title manage">Manage</h2>
+            <div class="button-div">
+                <a href="./bookreport.html" id="generate-report" class="button"><img src="./icons/bookreport.png" alt="" class="icon">Generat Book Report</a>
+                <a href="./reminder.html" id="reminder" class="button"><img src="./icons/bell.png" alt="" style="width: 20px;" class="icon">Send Reminder</a>
+                <a href="./customissue.html" id="custom-issue" class="button"><img src="./icons/custombook.png" alt="" class="icon" style="width: 25px;">Custom Book Issue</a>
+            </div>
+        </div>
+    </div>
+    <script src="./js/navbar.js"></script>
+</body>
+</html>

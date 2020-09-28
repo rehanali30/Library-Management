@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient( 65.5deg,  rgba(23,205,205,1) -15.1%, rgb(25, 64, 114) 71.5% );
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.733);
+}
+.heading {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid darkslategray;
+    padding: 10px;
+}
+.head-content {
+    display: inline;
+    vertical-align: middle;
+    font-size: 2em;
+    color: black;
+    padding: 0 6px;
+}
+.head-icons {
+    margin-left: auto;   
+}
+.head-icons img {
+    border-radius: 8px;
+    transition: all 200ms ease-in-out;
+}
+
+#notification {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 60px;
+    right: 20px;
+    height: 200px;
+    width: 200px;
+    z-index: 99;
+    background-color: rgba(211, 211, 211, 0.973);
+    transition: all 200ms ease-in-out;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+#navbar {
+    margin: 0;
+    padding: 0 20px 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(4, 7, 36);
+    color: white;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    transition: all 300ms ease-in-out;
+    border-radius: 10px 10px 0 0;
+}
+.nav-item:hover {
+    background-color: rgb(21, 27, 82);
+}
+.nav-item > a {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 5px;
+    color: white;
+}
+
+#dropdown {
+    position: absolute;
+    margin-top: 40px;
+    padding: 0;
+    background:linear-gradient( rgb(21, 27, 82) 10%, rgba(4, 7, 36, 0.747) 90%);
+    border-radius: 5px;
+    z-index: 100;
+    transition: all 300ms ease-in-out;
+}
+#dropdown > li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+}
+#dropdown > li > a {
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: lighter;
+    color: white;
+    transition: background-color 200ms ease-in-out;
+}
+#dropdown > li > a:hover {
+    background-color:  rgba(22, 42, 221, 0.747);
+}

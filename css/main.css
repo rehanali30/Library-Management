@@ -1,0 +1,73 @@
+#search {
+    position: relative;
+    width: 60%;
+    margin: 3rem auto;
+}
+
+.search-icon {
+    position: absolute;
+    margin: 7px;
+    width: 1.5rem;
+}
+
+.search-box {
+    width: 100%;
+    height: 2.2rem;
+    font-size: 1.15rem;
+    text-indent: 2.2rem;
+    border-radius: 5px;
+    border: 0;
+    display: block;
+}
+
+.action-area {    
+    border-radius: 10px;
+    width: 65%;
+    background-color: aliceblue;
+    margin: 3rem auto;
+}
+
+
+.action-title {
+    margin: auto;
+    padding: 8px;
+    font-weight: lighter;
+    color: white;
+    text-indent: 0.8rem;    
+    border-bottom: 2px solid darkslategray;
+    background-color:  rgb(4, 7, 36);
+}
+
+.books {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.manage {
+    border-top: 2px solid darkslategray;
+}
+
+.button-div {
+    padding: 2rem;
+    height: max-content;
+}
+.button {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 8px;
+    text-decoration: none;
+    background-color: rgb(182, 182, 182);
+    color: black;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 1em;
+    transition: all 200ms ease-in-out;
+}
+.button:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+.icon {
+    width: 23px;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+}
