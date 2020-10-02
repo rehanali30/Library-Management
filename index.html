@@ -11,42 +11,42 @@
     <header>
         <div class="heading">
             <a href="#" class="logo" > 
-                <img src="./images/logo.png" alt="Logo" class="head-content" width="60rem">
-                <p class="head-content"> Rizvi College of Engineering Library</p>
+                <img src="./images/logo.png" alt="Logo">
+                <p> Rizvi College of Engineering Library</p>
             </a>
             <div class="head-icons">
-                <a onclick="toggleNotification()"><img id="msg-icon" src="./icons/notification.png" alt="" width="35"></a>
-                <a href="./settings.html"><img src="./icons/settings.png" alt="" width="35"></a>
+                <a onclick="toggleNotification()"><img id="msg-icon" src="./icons/notification.png" alt="Notification"></a>
+                <div id="notification">
+                    <ul>
+                        <li>1. Notification</li>
+                    </ul>
+                </div>
+                <a href="./settings.html"><img src="./icons/settings.png" alt="Settings"></a>
             </div>
         </div>
         <nav>
             <ul id="navbar">
                 <li class="nav-item">
-                    <a href="" id="comp">Computer</a>
+                    <a id="comp">Computer</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" id="extc">Electronics & Telecommunications</a>
+                    <a id="extc">Electronics & Telecommunications</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" id="etrx">Electronics & Computer Science</a>
+                    <a id="etrx">Electronics & Computer Science</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" id="mech">Mechanical</a>
+                    <a id="mech">Mechanical</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" id="civil">Civil</a>
+                    <a id="civil">Civil</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" id="ai">AI & Data Science</a>
+                    <a id="ai">AI & Data Science</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <div id="notification">
-        <ul>
-            <li>Hello</li>
-        </ul>
-    </div>
     <div id="search">
         <img src="./icons/search.png" alt="" class="search-icon">
         <input type="text" class="search-box" placeholder="Search">
@@ -64,12 +64,15 @@
         <div class="action">
             <h2 class="action-title manage">Manage</h2>
             <div class="button-div">
-                <a href="./bookreport.html" id="generate-report" class="button"><img src="./icons/bookreport.png" alt="" class="icon">Generat Book Report</a>
+                <a href="./bookReport.html" id="generate-report" class="button"><img src="./icons/bookreport.png" alt="" class="icon">Generat Book Report</a>
                 <a href="./reminder.html" id="reminder" class="button"><img src="./icons/bell.png" alt="" style="width: 20px;" class="icon">Send Reminder</a>
                 <a href="./customissue.html" id="custom-issue" class="button"><img src="./icons/custombook.png" alt="" class="icon" style="width: 25px;">Custom Book Issue</a>
             </div>
         </div>
     </div>
+    <footer>
+        <a href="./report.html">Report <img src="./icons/report.png" alt="Report-icon"></a>
+    </footer>
     <script src="./js/navbar.js"></script>
 </body>
 </html>

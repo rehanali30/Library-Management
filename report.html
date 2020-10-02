@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings</title>
+    <title>Report a Problem</title>
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/settings.css">
+    <link rel="stylesheet" href="./css/report.css">
 </head>
 <body>
     <header>
@@ -21,7 +21,7 @@
                         <li>1. Notification</li>
                     </ul>
                 </div>
-                <a href="#"><img src="./icons/settings.png" alt="Settings"></a>
+                <a href="./settings.html"><img src="./icons/settings.png" alt="Settings"></a>
             </div>
         </div>
         <nav>
@@ -47,36 +47,30 @@
             </ul>
         </nav>
     </header>
-    <p class="settings-title">Settings</p>
-    <div class="container">
-        <div class="edit-profile">
-            <h3>Edit your Details</h3>
-            <form action="">
-                <label for="username">Username</label>
-                <input type="text" value="username" readonly>
-                <label for="email">Email ID</label>
-                <input type="email" value="email" readonly>
-                <label for="password">Password</label>
-                <input type="password" value="password" readonly>
-                <button>Edit</button>
-            </form>
-        </div>
-        <div class="edit-users">
-            <h3>Add or Remove Users</h3>
-            <a href="./createUser.html"><img class="icon" src="./icons/add-user.png" alt="icon">Add New User</a>
-            <a href="./removeUser.html"><img class="icon" src="./icons/fake-person.png" alt="icon">Remove User</a>
-        </div>
+    <div class="report">
+        <h2>Report a Problem</h2>
+        <form action="" class="report-form">
+            <label for="name">Full Name</label>
+            <input name="name" type="text" >
+            <label for="email">Email ID</label>
+            <input type="email" name="email" id="">
+            <label for="phone">Phone No.</label>
+            <input type="number" name="phone" id="">
+            <label for="type">Type</label>
+            <select name="type" id="">
+                <option value="faculty">Faculty</option>
+                <option value="student">Student</option>
+            </select>
+            <label for="uin">UIN Number</label>
+            <input name="uin" type="text">
+            <label for="problem">Describe the Issue</label>
+            <textarea name="problem" id="" cols="30" rows="10"></textarea>
+            <button type="submit">Submit</button>
+        </form>
     </div>
     <footer>
-        <a href="./report.html" title="Report a Problem"> <img src="./icons/report.png" alt="Report-icon"></a>
+        <a href="#" title="Report a Problem"> <img src="./icons/report.png" alt="Report-icon"></a>
     </footer>
     <script src="./js/navbar.js"></script>
 </body>
 </html>
-
-
-
-<!-- <ul>
-    <li><a href="./semester.html">Semester 1</a><a href="./semester.html">Semester 2</a><a href="./semester.html">Semester 3</a><a href="./semester.html">Semester 4</a></li>
-    <li><a href="./semester.html">Semester 5</a><a href="./semester.html">Semester 6</a><a href="./semester.html">Semester 7</a><a href="./semester.html">Semester 8</a></li>
-</ul> -->
